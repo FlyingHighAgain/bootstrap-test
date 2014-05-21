@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <title>Bootstrapを使ってみる</title>
+
+        <meta charset="utf-8">
+        
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="./css/bootstrap.min.css"/>
+        <script src="./js/bootstrap.min.js"></script>
+
+        <style>
+        .show-grid [class^=col-] {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: #eee;
+            background-color: rgba(86,61,124,.15);
+            border: 1px solid #ddd;
+            border: 1px solid rgba(86,61,124,.2);
+        }
+        </style>
+
+    </head>
+    <body>
+        <p></p>
+        <div class="container show-grid">
+            <div class="row">
+              <div class="col-sm-12">.col-sm-12</div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6">.col-sm-6</div>
+              <div class="col-sm-6">.col-sm-6</div>
+            </div>
+            <div class="row">
+              <div class="col-sm-7">.col-sm-7</div>
+              <div class="col-sm-5">.col-sm-5</div>
+            </div>
+            <div class="row">
+              <div class="col-sm-4">.col-sm-4</div>
+              <div class="col-sm-4">.col-sm-4</div>
+              <div class="col-sm-4">.col-sm-4</div>
+            </div>
+            <div class="row">
+              <div class="col-sm-1">.col-sm-1</div>
+            </div>
+        </div>
+    </body>
+</html>
